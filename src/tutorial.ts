@@ -1,13 +1,10 @@
-console.log("typscript tutorial");
+let singing: string = "Ne aalarsin benim zulfu syahim";
+singing = singing.toLocaleLowerCase()
+console.log(singing);
 
-interface someValue {
-  name: string;
-  id: number;
-}
+let gathering:number = 12;
+gathering = gathering = 4
+console.log(gathering);
 
-let someObj: someValue = {
-  name: "random",
-  id: 123,
-};
-
-console.log(someObj);
+let amIAwesom: boolean = gathering >= 16;
+console.log(amIAwesom);
