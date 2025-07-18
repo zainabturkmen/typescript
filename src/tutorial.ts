@@ -8,3 +8,4 @@ console.log(gathering);
 
 let amIAwesom: boolean = gathering >= 16;
 console.log(amIAwesom);
+
