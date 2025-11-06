@@ -1,10 +1,15 @@
-let singing: string = "Ne aalarsin benim zulfu syahim";
-singing = singing.toLocaleLowerCase()
-console.log(singing);
+let greeting: string = "Hello";
 
-let gathering:number = 12;
-gathering = gathering = 4
-console.log(gathering);
+greeting = greeting.toLocaleLowerCase();
 
-let amIAwesom: boolean = gathering >= 16;
-console.log(amIAwesom);
+console.log(greeting);
+
+let amount:number = 20-2
+
+console.log(amount);
+
+let isamount:boolean = amount >= 20
+
+console.log(isamount);
+
+
