@@ -1,21 +1,20 @@
+const books = ["1284", "Brave New World", "Frhrenheight 451"];
 
+let foundbooks: string | undefined;
 
+for (let book of books) {
+  if (book === "1284") {
+    foundbooks = book;
+    foundbooks.length;
+    break;
+  }
+}
 
-let tax:number | string = 10
-tax = 100
-tax = "$10 "
+let disscount: number | string = 20;
+disscount = "20"
+// disscount = true
 
+let orderStatues: "processing" | "shippping" | "delivered" = "processing"
 
-let requestStatus: "pending" | "success" | "error" = "pending"
-
-requestStatus = "success"
-requestStatus = "error"
-// requestStatus = "random"
-
-let notSure:any = 4
-
-notSure = "maybe a string instead"
-
-notSure = false
-
-let random;
+orderStatues = "delivered"
+// orderStatues = "value"
