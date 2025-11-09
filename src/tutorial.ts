@@ -5,4 +5,3 @@ const user = {
 
 const user1: { name: string; id: number } = { name: "Zainab", id: 0 };
 
-log
